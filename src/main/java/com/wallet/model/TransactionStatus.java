@@ -1,4 +1,4 @@
-package com.assignment.wallet.model;
+package com.wallet.model;
 
 public enum TransactionStatus {
     SUCCESS,
