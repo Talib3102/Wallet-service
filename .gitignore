@@ -24,3 +24,8 @@ out/
 .DS_Store
 Thumbs.db
 *.log
+
+### Configuration files ###
+*.yml
+*.yaml
+
