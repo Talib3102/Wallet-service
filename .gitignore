@@ -25,7 +25,5 @@ out/
 Thumbs.db
 *.log
 
-### Configuration files ###
-*.yml
-*.yaml
+
 
