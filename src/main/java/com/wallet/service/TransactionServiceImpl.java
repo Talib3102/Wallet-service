@@ -7,11 +7,12 @@ import com.wallet.model.Transaction;
 import com.wallet.model.TransactionStatus;
 import com.wallet.model.TransactionType;
 import com.wallet.repository.TransactionRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
-
+@Service
 public class TransactionServiceImpl implements TransactionService{
     private final TransactionRepository transactionRepository;
     private final WalletTransactionExecutor executor;
